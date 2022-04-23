@@ -25,7 +25,8 @@ export default class DataService {
     public getProgrammers(): Employee[] {
         return this.sortByPossition(WorkingPossition.PROGRAMMER);
     }
-
+ /* fix critica issue 
+ */
     public getAllEmployyes(): Employee[] {
         return employees;
     }
